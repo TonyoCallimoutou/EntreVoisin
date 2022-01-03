@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/name_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <TableRow
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="#FD6C9E"
+                app:srcCompat="@android:drawable/ic_dialog_map" />
+
+            <TextView
+                android:id="@+id/place_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:text="place" />
+        </TableRow>
+
+        <TableRow
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="#FD6C9E"
+                app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+            <TextView
+                android:id="@+id/tel_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:text="Tel" />
+        </TableRow>
+
+        <TableRow
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="#FD6C9E"
+                app:srcCompat="@android:drawable/stat_sys_warning" />
+
+            <TextView
+                android:id="@+id/web_site_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:text="Site web" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

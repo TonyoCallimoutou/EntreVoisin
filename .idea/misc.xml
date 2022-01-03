@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet3/EntreVoisin-main/app/src/main/res/layout/activity_detail_neighbour.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet3/EntreVoisin-main/app/src/main/res/layout/fragment_detail.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet3/EntreVoisin-main/app/src/main/res/layout/fragment_detail_2.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/EntreVoisin/app/src/main/res/layout/activity_detail_neighbour.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/EntreVoisin/app/src/main/res/layout/fragment_detail.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/EntreVoisin/app/src/main/res/layout/fragment_detail_2.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12447916666666667" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/drawable/ic_delete_white_24dp.xml" value="0.12447916666666667" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12447916666666667" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/drawable/ic_person_add_white_24dp.xml" value="0.12447916666666667" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/drawable/ic_star_border_white_24dp.xml" value="0.12447916666666667" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/drawable/ic_star_white_24dp.xml" value="0.12447916666666667" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/activity_add_neighbour.xml" value="0.10833333333333334" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/activity_detail_neighbour.xml" value="0.22" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/activity_list_neighbour.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/fragment_detail.xml" value="0.22" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/fragment_detail_2.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/fragment_list_neighbour.xml" value="0.13179347826086957" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/fragment_neighbour.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/fragment_neighbour_favorite.xml" value="0.12364130434782608" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/fragment_neighbour_list.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/newagainlayout.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/newlayout.xml" value="0.1580547112462006" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/layout/testlayout.xml" value="0.14356884057971014" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19375" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Entrevoisins/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19375" />
+        <entry key="..\:/Documents/Code/OpenClassroom/Projet_3/Nouveau dossier/Entrevoisins/app/src/main/res/layout/activity_detail_neighbour.xml" value="0.14990942028985507" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

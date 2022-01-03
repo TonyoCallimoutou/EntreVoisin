@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_neighbours"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF0"
+    tools:context=".ui.neighbour_list.DetailNeighbourActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/favoriteButton_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        android:backgroundTint="#ECEFF0"
+        android:tint="#DFAF2C"
+        app:borderWidth="0dp"
+        app:maxImageSize="30dp"
+        app:layout_anchor="@id/avatar_detail"
+        app:layout_anchorGravity="bottom|right|end"
+        app:srcCompat="@drawable/ic_star_border_white_24dp"
+        android:background="@android:drawable/dialog_holo_light_frame"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp" >
+
+            <ImageView
+                android:id="@+id/avatar_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/name_avatar_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@android:color/white"
+                android:textSize="36dp"
+                android:layout_gravity="bottom"
+                android:layout_margin="16dp"/>
+        </FrameLayout>
+
+        <include
+            layout="@layout/fragment_detail" />
+        <include
+            layout="@layout/fragment_detail_2" />
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

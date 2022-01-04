@@ -10,6 +10,18 @@
     tools:context=".ui.neighbour_list.DetailNeighbourActivity">
 
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/returnButton_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        android:tint="@android:color/white"
+        android:outlineProvider="none"
+        app:borderWidth="0dp"
+        android:backgroundTint="@android:color/transparent"
+        app:srcCompat="?attr/actionModeCloseDrawable"/>
+
+    <android.support.design.widget.FloatingActionButton
         android:id="@+id/favoriteButton_detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

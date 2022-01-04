@@ -1,5 +1,6 @@
 package com.openclassrooms.entrevoisins.ui.neighbour_list;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +24,8 @@ public class DetailNeighbourActivity extends AppCompatActivity {
     ImageView avatar;
     @BindView(R.id.favoriteButton_detail)
     FloatingActionButton buttonFavorite;
+    @BindView(R.id.returnButton_detail)
+    FloatingActionButton buttonReturn;
     @BindView(R.id.name_avatar_detail)
     TextView nameAvatar;
     @BindView(R.id.name_detail)
@@ -45,12 +48,13 @@ public class DetailNeighbourActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_neighbour);
         ButterKnife.bind(this);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mApiService = DI.getNeighbourApiService();
 
+        // recuperate neighbour
+        mApiService = DI.getNeighbourApiService();
         Neighbour neighbourCopie = (Neighbour) getIntent().getSerializableExtra(EXTRA_NEIGHBOUR);
         int i = mApiService.getNeighbours().indexOf(neighbourCopie);
         neighbour = mApiService.getNeighbours().get(i);
+
 
         buttonFavorite.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,18 +63,15 @@ public class DetailNeighbourActivity extends AppCompatActivity {
                 printFavoriteButton(neighbour.getFavorite());
             }
         });
-        init();
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home : {
+        buttonReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 finish();
-                return true;
             }
-        }
-        return super.onOptionsItemSelected(item);
+        });
+
+        init();
     }
 
     private void init() {
